@@ -1,0 +1,35 @@
+FileKit — Copyright (c) 2026 Aliaskar Avgust
+Project license: GNU Affero General Public License v3.0. See LICENSE.txt.
+Corresponding application source is available in source.zip on this site.
+
+Core libraries (exact versions and dependencies: package-lock.json in source.zip):
+React / React DOM — MIT — https://github.com/facebook/react
+Vite / TypeScript — MIT / Apache-2.0
+Lucide — ISC — https://lucide.dev/license
+pdf-lib — MIT — https://github.com/Hopding/pdf-lib
+@pdf-lib/fontkit — MIT
+MuPDF.js — AGPL-3.0 — https://github.com/ArtifexSoftware/mupdf.js
+PDF.js is not included.
+JSZip — MIT OR GPL-3.0-or-later — https://github.com/Stuk/jszip
+DOCX — MIT — https://github.com/dolanmiu/docx
+PptxGenJS — MIT — https://github.com/gitbrent/PptxGenJS
+ExcelJS — MIT — https://github.com/exceljs/exceljs
+Mammoth — BSD-2-Clause — https://github.com/mwilliamson/mammoth.js
+DOMPurify — Apache-2.0 OR MPL-2.0 — https://github.com/cure53/DOMPurify
+html2canvas — MIT — https://github.com/niklasvh/html2canvas
+jsPDF — MIT — https://github.com/parallax/jsPDF
+Tesseract.js — Apache-2.0 — https://github.com/naptha/tesseract.js
+heic-to — MIT (libheif: LGPL-3.0; see dependency notices)
+gifenc — MIT — https://github.com/mattdesl/gifenc
+@imgly/background-removal — AGPL-3.0 — https://github.com/imgly/background-removal-js
+TensorFlow.js — Apache-2.0 — https://github.com/tensorflow/tfjs
+ESRGAN slim x2 weights: @upscalerjs/esrgan-slim 1.0.0 — MIT.
+https://github.com/thekevinscott/upscaler
+Model license: see UPSCALE-LICENSE.txt.
+Model architecture: RDN C1 D2 G4 G064, scale 2; original model.json and weight shards retained.
+Noto Sans — SIL Open Font License 1.1 — see NOTO-LICENSE.txt.
+https://github.com/notofonts/noto-fonts
+
+OCR worker/language data are included in the site. Background-removal models may be downloaded at runtime from IMG.LY. Their licenses apply. User document/image contents are not sent to these providers.
+
+Additional original license texts are retained in third-party-licenses.zip, generated from installed dependencies during the build.
